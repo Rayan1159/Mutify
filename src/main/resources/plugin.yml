@@ -1,0 +1,11 @@
+name: Mutify
+version: ${project.version}
+main: com.mutify.main
+api-version: 1.16
+authors: [ Niveus1 ]
+description: Very simple mute plugin.
+website: https://client.fastly.network/
+commands:
+  mute:
+    usage: /mute <player>
+    description: Mutes the player. toggles on or off
